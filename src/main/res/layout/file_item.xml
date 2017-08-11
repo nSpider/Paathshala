@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#66218af3"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/fileIcon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/green"
+        android:padding="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/FileName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="FIle Name"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/dLink"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:text="Download file"
+            android:autoLink="web"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

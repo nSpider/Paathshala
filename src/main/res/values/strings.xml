@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Paathshala</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_cs">Computer Science</string>
+    <string name="enter_fully_specified_file_name">Enter fully specified file name</string>
+    <string name="upload">Upload</string>
+    <string name="choose_path">Choose path</string>
+    <string name="choose_path_of_file">Choose path of file</string>
+    <string name="upload_file">Upload file</string>
+    <string name="enter_valid_file_name">Enter valid file name</string>
+    <string name="on_back_button_title">Warning</string>
+    <string name="on_back_button_message">Are you sure u wanna Exit?</string>
+    <string name="id">user name</string>
+</resources>
